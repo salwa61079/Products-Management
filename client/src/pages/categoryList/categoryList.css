@@ -1,0 +1,64 @@
+
+.titreAdd{
+    margin-top: 35px;
+    align-content:right ;
+}
+
+
+
+.head {
+    background-color: rgb(240, 239, 239);
+}
+
+.iconAdd{
+    margin-top: 39px;
+    margin-left: 20px;
+}
+
+.btnAdd{
+    border: none;
+    background-color: transparent;
+}
+
+.btnEdit {
+    margin-left:70px ;
+    background-color: #a8bb2c;
+    height: 35px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+.btnEdit:hover{
+    background-color: #8b9c1a;
+}
+
+.btnCancel:hover{
+    background-color: rgb(182, 59, 59);
+}
+
+.btnCancel {
+    margin-left:10px ;
+    background-color: rgb(202, 74, 74);
+    height: 35px;
+    width: 80px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
+
+.cardA{
+   
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #faf9f9;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0.25rem;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    height: 100px;
+}

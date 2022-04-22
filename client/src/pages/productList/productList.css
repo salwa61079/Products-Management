@@ -1,0 +1,145 @@
+
+.featured{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.featuredItem{
+    transition: color 0.4s linear;
+    margin: 15px;
+    padding: 30px;
+    border-radius:10px ;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 11px -1px rgba(0,0,0,0.71); 
+box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.71);
+}
+
+
+
+.featuredItem:hover{
+    background-color: rgb(253, 255, 239);
+}
+
+
+.featuredTitle{
+    font-size: 20px ;
+}
+
+
+.featuredContainer{
+    margin: 10px ;
+    display: flex;
+    align-items: center;
+}
+
+.featuredImage{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.featuredSub{
+    font-size: 17px;
+    color: grey;
+}
+
+
+.featureButton {
+    margin-top: 20px;
+    margin-bottom: -5px;
+    margin-right: -20px;
+}
+
+.productEdit {
+    margin-left:70px ;
+    background-color: #a8bb2c;
+    height: 35px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    margin-left: 90px;
+    margin-right: 15px;
+}
+
+.productEdit:hover{
+    background-color: #8b9c1a;
+}
+
+.productDelete:hover{
+    background-color: rgb(182, 59, 59);
+}
+
+.productDelete {
+    margin-left:10px ;
+    background-color: rgb(202, 74, 74);
+    height: 35px;
+    width: 80px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.addFunction{
+    margin-top: 20px;
+    margin-left: 90% ;
+}
+
+.addProduct{
+    border: none;
+    background-color: transparent;
+}
+
+.searchDiv{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.iconSearch{
+    border: none;
+    background-color: transparent;
+    margin-top: 9px;
+    margin-left: -70px;
+}
+
+.titreAddP{
+    margin-top: 40px;
+    align-content:left ;
+}
+
+.addP{
+    display: flex;
+    align-content: right;
+    justify-content:flex-end;
+}
+
+.ProductList{
+    margin-bottom: 50px;
+}
+
+
+
+.cardP{
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #faf9f9;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    height: 60px;
+}
+
+
+
+.photo{
+    height: 120px;
+      width: 140px; 
+      margin-left: 50px;
+}

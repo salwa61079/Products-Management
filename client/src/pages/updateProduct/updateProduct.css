@@ -1,0 +1,92 @@
+.cardc{
+    position: inherit;
+    display: flex;
+    width: 100%;
+    transition: color 0.4s linear;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius:7px ;
+    -webkit-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.71); 
+box-shadow: 0px 0px 13px -8px rgba(0,0,0,0.71);
+margin-bottom: 50px;
+}
+
+
+.cancelBtn{
+    background-color: rgb(202, 74, 74);
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+}
+
+.cancelBtn:hover{
+    background-color: rgb(182, 59, 59);
+}
+
+.submitProduct {
+    float: right;
+    background-color: rgb(21, 123, 141);
+    height: 35px;
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+}
+
+.submitProduct:hover{
+    background-color: rgb(75, 157, 172);
+}
+
+.add {
+    margin-left:auto;
+    background-color: rgb(21, 123, 141);
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+.add:hover{
+    background-color:rgb(75, 157, 172);
+}
+
+.addC {
+    margin-left:auto;
+    background-color: rgb(21, 123, 141);
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+.addC:hover{
+    background-color:rgb(75, 157, 172);
+}
+
+.titre {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.addVc{
+    border: none;
+    background-color: transparent;
+    margin-top: -40px;
+}
+
+.lab{
+    display: flex;
+    justify-content: space-between;
+    position: inherit;
+}
