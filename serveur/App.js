@@ -24,14 +24,14 @@ app.use("/api/model", routeModel);
 app.use("/api/caracteristic", routeCaracteristic);
 app.use("/api/product", routeProduct);
 
-const port = process.env.PORT
+const port = process.env.PORT || 5000
 
 
 
 
 
 //configuration cors
- const whitelist = ["http://localhost:3000"]
+const whitelist = ["http://localhost:3000"]
 const corsOptions = {
   origin: function (origin, callback) {
     if (!origin || whitelist.indexOf(origin) !== -1) {
@@ -44,7 +44,9 @@ const corsOptions = {
 }
 app.use(cors(corsOptions))
 
-
+if (process.env.NODE_ENV==='production'){
+  app.use(express.static('client/build'));
+}
 
 app.listen(port, (err)=>{
     err 

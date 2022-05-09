@@ -35,7 +35,7 @@ export default function ProductList(props) {
         console.log(res)
         setPages(Math.round((res.data.allProducts.length / perPage) + 0.4))
       })
-  })
+  }, [])
 
 
 

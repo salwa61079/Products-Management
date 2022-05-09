@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const { Schema, model } = mongoose;
+const { Schema } = mongoose;
 
 const caracteristiqueSchema = new Schema({
     label: { type: String, required: true },

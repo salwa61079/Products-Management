@@ -82,9 +82,8 @@ export default function AddProduct() {
 
     //Close product snackbar
     const handleCloseS = (event, reason) => {
-        if (reason === 'clickaway') {
-            return;
-        }
+        if (reason === 'clickaway') return;
+        
         setOpenSA(false);
         setOpenWA(false);
         setOpenEA(false);

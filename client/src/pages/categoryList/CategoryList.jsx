@@ -68,14 +68,14 @@ export default function CategoryList() {
     }
 
     //get all categories 
-    useEffect(async () => {
+    useEffect( () => 
 
         //categories
-        await axios.get('/api/category/allCategoriesProducts').then(res => {
+         axios.get('/api/category/allCategoriesProducts').then(res => {
             setRows(res.data.allCategoriesP)
             console.log("categories with list Products", res)
         })
-    },[])
+    ,[category,rows])
 
     //add category functions
     function submit(e) {
